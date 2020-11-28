@@ -12,15 +12,16 @@ class Solution:
             word_d[word[0]].append(word)
 
         for i in reversed(range(len(s))):
-            if s[i] in word_d:
-                for word in word_d[s[i]]:
-                    if s[i:].startswith(word):
-                        if i + len(word) == len(s):
-                            dp[i] = True
-                        elif i + len(word) < len(s):
-                            dp[i] = dp[i + len(word)]
-                        else:
-                            dp[i] = False
-                        if dp[i]:
-                            break
+            if s[i] not in word_d:
+                continue
+            for word in word_d[s[i]]:
+                if s[i:].startswith(word):
+                    if i + len(word) == len(s):
+                        dp[i] = True
+                    elif i + len(word) < len(s):
+                        dp[i] = dp[i + len(word)]
+                    else:
+                        dp[i] = False
+                    if dp[i]:
+                        break
         return dp[0]
