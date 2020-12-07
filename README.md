@@ -20,3 +20,18 @@ word_d = defaultdict(list)
         word_d[word[0]].append(word)
 ```
 
+## [functools.lru_cache](https://docs.python.org/ko/3/library/functools.html)
+* Sample: https://leetcode.com/problems/ones-and-zeroes/discuss/561642/Python-5-liner-top-down-dp
+
+# Topics to Study
+* 0-1 Knapsack Problem: A limit 안에서 구할 수 있는 B의 ... (최댓값, 가능 여부..)
+* Bisect & Binary Search
+
+# Impressive Problems :)
+* [Maximum Product Subarray](https://github.com/jyeoniii/algorithm/blob/master/20201122/maximum_product_subarray.py)
+* [Min Stack](https://github.com/jyeoniii/algorithm/blob/master/20201124/min_stack.py)
+* [Subsets2](https://github.com/jyeoniii/algorithm/blob/master/20201203/subsets2.py)
+* [Maximum Profit in Job Scheduling](https://github.com/jyeoniii/algorithm/blob/master/20201204/maximum_profit_in_job_scheduling.py)
+* [Capacity to Ship Packages Within D Days](https://github.com/jyeoniii/algorithm/blob/master/20201205/capacity_to_ship_packages_within_d_days.py)
+* [Ones and Zeros](https://github.com/jyeoniii/algorithm/blob/master/20201206/ones_and_zeros.py)
+* [Partition Equal Subset Sum](https://github.com/jyeoniii/algorithm/blob/master/20201207/partition_equal_subset_sum.py)
