@@ -26,6 +26,7 @@ word_d = defaultdict(list)
 # Topics to Study
 * 0-1 Knapsack Problem: A limit 안에서 구할 수 있는 B의 ... (최댓값, 가능 여부..)
 * Bisect & Binary Search
+* Monotone Stack
 
 # Impressive Problems :)
 * [Maximum Product Subarray](https://github.com/jyeoniii/algorithm/blob/master/20201122/maximum_product_subarray.py)
@@ -44,3 +45,5 @@ word_d = defaultdict(list)
 * [Jump Game IV](https://github.com/jyeoniii/algorithm/blob/master/20201227/jump_game4.py)
 * [Shortest Path in a Grid with Obstacles Elimination](https://github.com/jyeoniii/algorithm/blob/master/20201228/shortest_path_in_a_grid_with_obstacles_elimination.py)
 * [Longest Substring Without Repeating Characters](https://github.com/jyeoniii/algorithm/blob/master/20201229/longest_substring_without_repeating_characters.py)
+* [Largest Rectangle in Histogram](https://github.com/jyeoniii/algorithm/blob/master/20201231/largest_rectangle_in_histogram.py)
+* [Sum of SuaArray Minimums](https://github.com/jyeoniii/algorithm/blob/master/20210101/sum_of_subarray_minimums.py)
