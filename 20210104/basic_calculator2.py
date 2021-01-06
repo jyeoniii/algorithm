@@ -39,7 +39,7 @@ class Solution:
         stack = []
         op, last_op_idx = '+', -1
         for i, c in enumerate(s):
-            if c: continue
+            if c == ' ': continue
             elif c.isdigit():
                 if i == len(s) - 1 or not s[i + 1].isdigit():
                     num = int(s[last_op_idx + 1:i + 1])
