@@ -23,6 +23,9 @@ word_d = defaultdict(list)
 ## [functools.lru_cache](https://docs.python.org/ko/3/library/functools.html)
 * Sample: https://leetcode.com/problems/ones-and-zeroes/discuss/561642/Python-5-liner-top-down-dp
 
+## Python list의 `__lt__` 구현: 
+* lexicographical: https://stackoverflow.com/questions/37287340/what-is-the-lt-actually-doing-for-lists
+
 # Topics to Study
 * 0-1 Knapsack Problem: A limit 안에서 구할 수 있는 B의 ... (최댓값, 가능 여부..)
 * Bisect & Binary Search
@@ -57,3 +60,4 @@ word_d = defaultdict(list)
 * [Sort K Sorted Array](https://github.com/jyeoniii/algorithm/blob/master/20210121/sort_k_sorted_array.py)
 * [Path With Minimum Effort](https://github.com/jyeoniii/algorithm/blob/master/20210126/path_with_minimum_effort.py)
 * [Min Rewards](https://github.com/jyeoniii/algorithm/blob/master/20210126/min_rewards.py)
+* [Evaluate Divison](https://github.com/jyeoniii/algorithm/blob/master/20210127/evaluate_division.py)
