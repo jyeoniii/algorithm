@@ -69,3 +69,17 @@ class Solution:
             return 1 + max(dfs(j) for j in edges[i])
 
         return max(dfs(i) for i in range(len(words)))
+
+
+class Solution:
+
+    def longestStrChain(self, words: List[str]) -> int:
+        dp = { word: 1 for word in words }
+        
+        @functools.lru_cache(None)
+        def dfs(word):
+            if word not in dp: return 0
+            dp[word] = 1 + max(dfs(word[:i] + word[i+1:]) for i in range(len(word)))
+            return dp[word]
+
+        return max(dfs(word) for word in words)
