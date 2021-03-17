@@ -26,6 +26,36 @@ word_d = defaultdict(list)
 ## Python list의 `__lt__` 구현: 
 * lexicographical: https://stackoverflow.com/questions/37287340/what-is-the-lt-actually-doing-for-lists
 
+## collections.Counter
+```
+>>> from collections import Counter
+>>> c1 = Counter("abc")
+>>> c2 = Counter("bcd")
+>>> c1
+Counter({'a': 1, 'b': 1, 'c': 1})
+>>> c2
+Counter({'b': 1, 'c': 1, 'd': 1})
+>>> c1 - c2
+Counter({'a': 1})
+```
+
+## random
+* https://wikidocs.net/79
+```
+>>> random.randrange(1,7)
+
+>>> abc = ['a', 'b', 'c', 'd', 'e']
+>>> random.shuffle(abc)
+>>> abc
+['a', 'd', 'e', 'b', 'c']
+
+>>> random.choice(abc)
+'a'
+>>> random.choice(abc)
+'d'
+```
+
+
 # Topics to Study
 * 0-1 Knapsack Problem: A limit 안에서 구할 수 있는 B의 ... (최댓값, 가능 여부..)
 * Bisect & Binary Search
